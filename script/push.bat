@@ -5,3 +5,5 @@ git add -A .
 set input=
 set /p input=Please input commit desc:
 git commit -m "%input%"
+@REM push
+git push
