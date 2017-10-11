@@ -1,3 +1,4 @@
+@echo off
 @REM close auto out
 @REM add all
 git add -A .
