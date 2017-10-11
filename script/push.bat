@@ -1,4 +1,7 @@
-@REM PUSH Script
+@REM close auto out
+@REM add all
 git add -A .
-git commit -m "Auto commit by push script"
-git push
+@REM Input desc
+set input=
+set /p input=Please input commit desc:
+git commit -m "%input%"
